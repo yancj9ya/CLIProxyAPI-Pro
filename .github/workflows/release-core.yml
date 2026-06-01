@@ -1,9 +1,8 @@
 name: Publish CLIProxyAPI Pro Release
 
-on:
+于:
   workflow_dispatch:
-  schedule:
-    - cron: '0 */3 * * *'
+ 
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
